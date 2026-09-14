@@ -28,6 +28,6 @@ export default function handler(req, res) {
     // Intentionally provides no information about individual correct digits.
     return res.status(200).json({
         success: false,
-        message: "THWIP! One digit is wrong. Try another combination.",
+        message: "Wrong combination entered.",
     });
 }
